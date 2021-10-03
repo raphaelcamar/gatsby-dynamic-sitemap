@@ -1,0 +1,25 @@
+{
+  "name": "dynamic-sitemap",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dynamic sitemap",
+  "author": "Raphael",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^3.13.1",
+    "gatsby-plugin-robots-txt": "^1.6.10",
+    "gatsby-plugin-sitemap": "^4.10.0",
+    "gatsby-source-apiserver": "^2.1.8",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
