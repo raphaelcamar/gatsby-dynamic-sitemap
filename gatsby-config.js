@@ -13,14 +13,13 @@ module.exports = {
         entityLevel: 'response.holidays',
         headers: {
           'Content-Type': 'application/json',
-          'api_key':'8d5fb055f09266640d6eca133948a4c85c706c1b'
         },
         typePrefix: 'internal__',
         name: 'posts',
         params: {
           country: 'BR',
           year: 2021,
-          api_key: '8d5fb055f09266640d6eca133948a4c85c706c1b'
+          api_key: 'API_KEY'
         },
         verboseOutput: true
       }
